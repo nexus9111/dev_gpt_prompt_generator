@@ -2,7 +2,7 @@ context = input("--- Context: \n")
 
 objectiv = input("--- Objectiv: \n")
 
-style = input("--- Style (default will be: 'Follow the writing style of successful companies that advertise similar products, such as Dyson.'): \n")
+style = input("--- Style (default will be: 'Follow the writing style of successful companies that are experts in dev/devops, such as AWS, Google Cloud, and Microsoft Azure.'): \n")
 if style == "":
     style = "Follow the writing style of successful companies that are experts in dev/devops, such as AWS, Google Cloud, and Microsoft Azure."
 
@@ -10,7 +10,7 @@ tone = input("--- Tone (default will be: 'Professional, technical'): \n")
 if tone == "":
     tone = "Professional, technical"
 
-audience = input("--- Audience (default will be: 'My business partners'): \n")
+audience = input("--- Audience (default will be: 'Devops engineers and developers who are interested in learning about the latest technologies and best practices.'): \n")
 if audience == "":
     audience = "Devops engineers and developers who are interested in learning about the latest technologies and best practices."
 
